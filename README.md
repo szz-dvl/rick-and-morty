@@ -143,7 +143,7 @@ You can find the environment variables in the file we copied before (.env), agai
 
 ### Authentication
 
-To handle user authentication the server will make use of JSON web tokens. To this purpose, I'm using the combo [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) and [passportJS](http://www.passportjs.org/). You can find the strategy used [here](https://github.com/szz-dvl/rick-and-morty-back/blob/master/strategies/jwt.ts) as well as the middleware to protect routes that needs authentication. Now, the routes to authenticate and register a user are found in the file [auth.js](https://github.com/szz-dvl/rick-and-morty-back/blob/master/routes/auth.ts). The routes defined in this file are the following:
+To handle user authentication the server will make use of JSON web tokens. To this purpose, I'm using the combo [jsonwebtoken](https://www.npmjs.com/package/jsonwebtoken) and [passportJS](http://www.passportjs.org/). You can find the strategy used [here](https://github.com/szz-dvl/rick-and-morty-back/blob/master/strategies/jwt.ts) as well as the middleware to protect routes that needs authentication. Now, the routes to authenticate and register a user are found in the file [auth.ts](https://github.com/szz-dvl/rick-and-morty-back/blob/master/routes/auth.ts). The routes defined in this file are the following:
 
 ```javascript
 POST /auth/login
