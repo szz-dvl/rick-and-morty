@@ -1,0 +1,6 @@
+[submodule "rick-and-morty-front"]
+	path = rick-and-morty-front
+	url = https://github.com/szz-dvl/rick-and-morty-front.git
+[submodule "rick-and-morty-back"]
+	path = rick-and-morty-back
+	url = https://github.com/szz-dvl/rick-and-morty-back.git
