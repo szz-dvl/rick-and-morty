@@ -60,7 +60,7 @@ At this point we are able to keep users data to autheticate them requests, so I 
 
 ### [Layout](https://github.com/szz-dvl/rick-and-morty-front/blob/master/src/components/Layout.tsx)
 
-This component implements a very simple layout for the app, it will give the user the ability to register if he is not logged into the application or to register into the system if he do no have an account yet. It will wrap all the containers that will follow.
+This component implements a very simple layout for the app, it will give the user the ability to register if he is not logged into the application or to logout from the system if he is logged in. It will wrap all the containers that will follow.
 
 ### [Login](https://github.com/szz-dvl/rick-and-morty-front/tree/master/src/containers/Login)
 
